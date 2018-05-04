@@ -17,6 +17,7 @@
     "no-implicit-dependencies": [false],
     "no-magic-numbers": [true],
     "no-return-await": [true],
+    "no-submodule-imports": [true, "todoist-rest"],
     "ordered-imports": [false],
     "prefer-object-spread": [true],
     "prefer-template": [true, "allow-single-concat"],

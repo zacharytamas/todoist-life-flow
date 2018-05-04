@@ -1,16 +1,25 @@
 {
-  "name": "scratch-boilerplate",
+  "name": "todoist-life-flow",
   "version": "1.0.0",
-  "description": "Boilerplate code for scratch projects.",
+  "description":
+    "A helper for implementing my productivity strategy using Todoist.",
   "main": "index.js",
-  "repository": "https://zacharytamas@github.com/zacharytamas/scratch-boilerplate.git",
-  "author": "Zachary Jones <zachary.tamas.cc>",
-  "license": "MIT",
+  "author": "Zachary Jones <me@zacharytamas.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "ensure": "ts-node src/cli-ensure-aspects.ts",
+    "plan": "ts-node src/cli-plan.ts"
+  },
   "private": true,
   "devDependencies": {
+    "@types/inquirer": "^0.0.41",
     "prettier": "^1.11.1",
+    "ts-node": "^6.0.0",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.9.0",
     "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "inquirer": "^5.2.0"
   }
 }
