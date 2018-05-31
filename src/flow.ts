@@ -102,7 +102,7 @@ export class LifeFlow {
 
     this.aspectMap = allLabels.reduce((mapInProgress, label) => {
       // Skip anything labeled with 'meta'
-      if (label.name === 'meta') {
+      if (label.name.startsWith('ignore') || !label.name.includes('/')) {
         return mapInProgress;
       }
       const [category, leaf] = label.name.split(/\//);

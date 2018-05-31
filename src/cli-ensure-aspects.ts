@@ -16,6 +16,9 @@ import { trySaving } from './task-utils';
   const list = Object.entries(aspects);
 
   for (const [category, aspectList] of list) {
+    if (category === 'time') {
+      continue;
+    }
     console.log(`Ensuring ${category}\n`);
     const tasks = await flow.tasksMissingAspect(category);
     let current = 1;
