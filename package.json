@@ -12,14 +12,14 @@
   },
   "private": true,
   "devDependencies": {
-    "@types/inquirer": "^0.0.41",
+    "@types/inquirer": "^0.0.43",
     "prettier": "^1.11.1",
-    "ts-node": "^6.0.0",
+    "ts-node": "^7.0.1",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.9.0",
-    "typescript": "^2.7.2"
+    "typescript": "^3.2.2"
   },
   "dependencies": {
-    "inquirer": "^5.2.0"
+    "inquirer": "^6.2.1"
   }
 }
